@@ -1,0 +1,51 @@
+.border-block {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #00bff9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.result {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid #00bff9;
+
+}
+
+input {
+    width: 40%;
+    border-radius: 10px;
+    border: 2px solid #00bff9;
+}
+
+button {
+    border-radius: 10px;
+    border: 2px solid #00bff9;
+    background-color: #00bff9;
+    color: white;
+    font-size: 14px;
+
+}
+
+.message-text.client {
+    margin-left: auto;
+    color: #874ef1;
+}
+
+.message-text {
+    width: fit-content;
+    padding: 5px;
+    border: 2px solid #00bff9;
+    border-radius: 10px;
+    margin: 10px 0;
+    color: #4a5153;
+}
