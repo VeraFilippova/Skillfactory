@@ -1,4 +1,5 @@
 
+
 const percents = (percent, number) => {
 	return number/100*percent }
 

@@ -1,3 +1,4 @@
+
 const { percents, nativeNull } = require("./intro");
 
 describe("getPercents function:", () => {
