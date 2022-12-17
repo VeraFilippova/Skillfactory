@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Nunito Sans";
+    color: white;
+}
+
+.slider {
+    height: 100vh;
+    background: #131313;
+}
+
+.main-block {
+    margin: 0 auto;
+    width: 1310px;
+
+}
+
+h1,
+h2,
+h3,
+.nav-li {
+
+    font-family: "Yeseva One";
+    color: #E3B873;
+
+}
+
+
+
+a {
+    color: #E3B873;
+    text-decoration: none;
+}
+
+.left-nav {
+    margin: 0 0 0 40%;
+    padding: 40px 0 5% 0;
+}
+
+.block-information {
+    display: flex;
+}
+
+.left-block {
+    width: 41%;
+    padding-right: 20px;
+}
+
+.left-block p {
+    margin: 10% 0;
+}
+
+.wrap-block {
+    margin: 10% 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.item-block {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+
+.navigation-icon {
+    display: flex;
+    gap: 30px;
+}
+
+.block-dots {
+    display: flex;
+    gap: 20px;
+}
+
+.circle {
+    margin-top: 4px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(130, 129, 129);
+    border-radius: 50%;
+}
+
+.active {
+    background-color: rgb(237, 230, 230);
+}
+
+.line {
+    padding-bottom: 13%;
+
+}
+
+.ar-right {
+    margin-right: -9px;
+}
+
+.ar-left {
+    margin-left: -9px;
+}
+
+.img-block {
+    width: 678px;
+}
+
+.img-block img {
+    width: 100%;
+}
+
+.nav-li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.underline {
+
+    text-decoration: underline 3px;
+}
